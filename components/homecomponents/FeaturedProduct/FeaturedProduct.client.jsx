@@ -18,16 +18,15 @@ export default function FeaturedProductC() {
 
   React.useEffect(() => {
     setprogress(1 - scrollYProgress.current);
-    console.log(scrollYProgress.current);
     scrollY.onChange((val) => {
       setscrolly(val);
     });
   }, [scroll]);
 
   const styles = {
-    background: `radial-gradient(circle, #ff0000bb ${
+    background: `radial-gradient(circle, #4c4fff ${
       progress * 100
-    }%, #4c4fff ${100}%)`,
+    }%, #ff0000bb ${100}%)`,
   };
 
   return (
@@ -45,8 +44,6 @@ export default function FeaturedProductC() {
         <ProductCard />
         <ProductCard />
         <ProductCard />
-       
-    
       </div>
     </div>
   );
