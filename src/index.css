@@ -116,6 +116,8 @@
   background-blend-mode: darken;
   background-color: black;
   position: relative;
+  margin-bottom: -5px;
+  z-index: -1;
 }
 
 .sliderimage img {

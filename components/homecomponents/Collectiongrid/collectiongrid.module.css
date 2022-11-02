@@ -1,0 +1,29 @@
+.grid-container {
+  width: 100%;
+  /* height: 50vh; */
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  grid-template-rows: 330px 330px;
+  justify-content: center;
+  padding: 100px 100px;
+  box-sizing: border-box;
+background: radial-gradient(circle, #ff0000bb 10%, #4c4fff 70%);
+}
+
+.item {
+
+  background-color: rgba(0, 0, 0, 0.466);
+  
+  border-radius: 5px;
+}
+
+.item:nth-of-type(1) {
+  grid-column: 1 / span 2;
+}
+
+.item:nth-of-type(6) {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
