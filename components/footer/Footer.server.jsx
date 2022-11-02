@@ -1,4 +1,3 @@
-import React from 'react'
 import FooterC from './Footer.client'
 
 export default function Footer() {
