@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer.server"
 import FeaturedProduct from "../../components/homecomponents/FeaturedProduct/FeaturedProduct.server"
 import CollectionGrid from "../../components/homecomponents/Collectiongrid/collectiongrid.server"
 import TextMoving from "../../components/homecomponents/textmoving.client"
+import ProductWheel from "../../components/homecomponents/productwheel/ProductWheel.server"
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
       <CollectionGrid />
       <TextMoving />
       <FeaturedProduct />
-      
+      <ProductWheel />
 
 
       <Footer />
