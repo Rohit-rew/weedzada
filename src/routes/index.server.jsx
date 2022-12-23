@@ -5,6 +5,7 @@ import FeaturedProduct from "../../components/homecomponents/FeaturedProduct/Fea
 import CollectionGrid from "../../components/homecomponents/Collectiongrid/collectiongrid.server"
 import TextMoving from "../../components/homecomponents/textmoving.client"
 import ProductWheel from "../../components/homecomponents/productwheel/ProductWheel.server"
+import BlessUp from "../../components/homecomponents/blessup/blessup.client"
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <CollectionGrid />
       <TextMoving />
       <FeaturedProduct />
+      <BlessUp />
       <ProductWheel />
 
 
